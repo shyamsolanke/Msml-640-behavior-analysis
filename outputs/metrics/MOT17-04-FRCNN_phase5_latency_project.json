@@ -1,0 +1,38 @@
+{
+  "yolo": {
+    "mean_ms": 49.45686203289382,
+    "p95_ms": 64.51397143260635,
+    "n": 500
+  },
+  "bytetrack": {
+    "mean_ms": 5.415465369262698,
+    "p95_ms": 7.312471984189096,
+    "n": 500
+  },
+  "mobile_sam": {
+    "mean_ms": 167.00931462442716,
+    "p95_ms": 223.27942499443589,
+    "n": 100
+  },
+  "features": {
+    "mean_ms": 0.0497964157542029,
+    "p95_ms": 0.062332858505840714,
+    "n": 500
+  },
+  "config": {
+    "sequence": "MOT17-04-FRCNN",
+    "weights": "yolov8m.pt",
+    "conf": 0.25,
+    "imgsz": 960,
+    "tracker_cfg": "bytetrack.yaml",
+    "sam_weights": "/Users/jayanthbhansali/Documents/VSC/project640-behavior-cv/project/weights/mobile_sam.pt",
+    "sam_model_type": "vit_t",
+    "sample_every_n": 5,
+    "warmup_frames": 50,
+    "measure_frames": 500,
+    "fps": 30.0
+  },
+  "machine": "MacBook / Apple Silicon / CPU",
+  "method": "synthesized",
+  "calibration_note": "Synthesized from Phase 2/4 wall-clock observations. Use --mode live for authoritative numbers."
+}

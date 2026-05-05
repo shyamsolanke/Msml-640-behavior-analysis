@@ -1,0 +1,14 @@
+{
+  "seq_name": "MOT17-04-FRCNN",
+  "idf1": 0.5367760491567525,
+  "mota": 0.38385516327775093,
+  "motp": 0.15638467183172103,
+  "num_switches": 90,
+  "mostly_tracked": 18,
+  "mostly_lost": 28,
+  "num_false_positives": 5294,
+  "num_misses": 23918,
+  "num_objects": 47557,
+  "num_frames_evaluated": 1050,
+  "iou_max": 0.5
+}

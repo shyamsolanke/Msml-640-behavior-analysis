@@ -1,0 +1,16 @@
+ultralytics>=8.4.46
+opencv-python>=4.11.0.86
+numpy>=1.26.4
+pandas>=2.2.3
+scipy>=1.15.3
+matplotlib>=3.10.0
+streamlit>=1.45.1
+motmetrics>=1.4.0
+pillow>=11.1.0
+pyarrow>=23.0.0
+tqdm>=4.67.1
+torch>=2.11.0
+mobile-sam @ git+https://github.com/ChaoningZhang/MobileSAM.git
+timm>=1.0.26
+openai>=2.34.0
+python-dotenv>=1.0.1

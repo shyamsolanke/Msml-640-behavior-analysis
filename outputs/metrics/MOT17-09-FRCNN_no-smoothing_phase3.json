@@ -1,0 +1,40 @@
+{
+  "seq_name": "MOT17-09-FRCNN",
+  "config": {
+    "smoothing": {
+      "on": false,
+      "window": 5,
+      "polyorder": 2
+    },
+    "behavior_layer": true,
+    "proximity": {
+      "on": true,
+      "threshold_px": 100.0,
+      "min_duration_s": 0.5
+    },
+    "grid": [
+      4,
+      4
+    ],
+    "stationary_speed_px_per_s": 5.0,
+    "min_active_frames": 5,
+    "fps": 30.0,
+    "frame_w": 1920,
+    "frame_h": 1080
+  },
+  "n_tracks_input": 59,
+  "n_tracks_after_filter": 52,
+  "n_proximity_events": 29,
+  "label_counts": {
+    "region_dominant": 33,
+    "high_mobility": 17,
+    "": 2
+  },
+  "runtime_s": {
+    "smoothing": 0.0,
+    "features": 0.028,
+    "proximity": 0.176,
+    "summary": 0.014,
+    "total": 0.218
+  }
+}

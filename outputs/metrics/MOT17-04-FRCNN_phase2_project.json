@@ -1,0 +1,17 @@
+{
+  "seq_name": "MOT17-04-FRCNN",
+  "idf1": 0.5519159791576205,
+  "mota": 0.3883129718022583,
+  "motp": 0.15418200979903776,
+  "num_switches": 36,
+  "mostly_tracked": 18,
+  "mostly_lost": 31,
+  "num_false_positives": 3818,
+  "num_misses": 25236,
+  "num_objects": 47557,
+  "num_frames_evaluated": 1050,
+  "iou_max": 0.5,
+  "weights": "yolov8m.pt",
+  "conf": 0.25,
+  "imgsz": 960
+}

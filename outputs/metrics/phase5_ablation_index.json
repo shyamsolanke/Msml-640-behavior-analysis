@@ -1,0 +1,146 @@
+{
+  "MOT17-04-FRCNN__bbox__raw__behavior": {
+    "features": "outputs/features/MOT17-04-FRCNN_no-smoothing.parquet",
+    "overlay": "outputs/overlays/MOT17-04-FRCNN.mp4",
+    "proximity": "outputs/proximity/MOT17-04-FRCNN_no-smoothing.parquet",
+    "summary": "outputs/summaries/MOT17-04-FRCNN_no-smoothing.txt"
+  },
+  "MOT17-04-FRCNN__bbox__raw__counts": {
+    "features": "outputs/features/MOT17-04-FRCNN_no-smoothing.parquet",
+    "overlay": "outputs/overlays/MOT17-04-FRCNN.mp4",
+    "proximity": "outputs/proximity/MOT17-04-FRCNN_no-smoothing.parquet",
+    "summary": "outputs/summaries/MOT17-04-FRCNN_no-smoothing__no-behavior.txt"
+  },
+  "MOT17-04-FRCNN__bbox__smooth__behavior": {
+    "features": "outputs/features/MOT17-04-FRCNN.parquet",
+    "overlay": "outputs/overlays/MOT17-04-FRCNN.mp4",
+    "proximity": "outputs/proximity/MOT17-04-FRCNN.parquet",
+    "summary": "outputs/summaries/MOT17-04-FRCNN.txt"
+  },
+  "MOT17-04-FRCNN__bbox__smooth__counts": {
+    "features": "outputs/features/MOT17-04-FRCNN.parquet",
+    "overlay": "outputs/overlays/MOT17-04-FRCNN.mp4",
+    "proximity": "outputs/proximity/MOT17-04-FRCNN.parquet",
+    "summary": "outputs/summaries/MOT17-04-FRCNN_no-behavior.txt"
+  },
+  "MOT17-04-FRCNN__mask__raw__behavior": {
+    "features": "outputs/features/MOT17-04-FRCNN_mask.parquet",
+    "overlay": "outputs/overlays/MOT17-04-FRCNN_mask.mp4",
+    "proximity": "outputs/proximity/MOT17-04-FRCNN_mask.parquet",
+    "summary": "outputs/summaries/MOT17-04-FRCNN_mask__no-smoothing.txt"
+  },
+  "MOT17-04-FRCNN__mask__raw__counts": {
+    "features": "outputs/features/MOT17-04-FRCNN_mask.parquet",
+    "overlay": "outputs/overlays/MOT17-04-FRCNN_mask.mp4",
+    "proximity": "outputs/proximity/MOT17-04-FRCNN_mask.parquet",
+    "summary": "outputs/summaries/MOT17-04-FRCNN_mask__no-smoothing__no-behavior.txt"
+  },
+  "MOT17-04-FRCNN__mask__smooth__behavior": {
+    "features": "outputs/features/MOT17-04-FRCNN_mask.parquet",
+    "overlay": "outputs/overlays/MOT17-04-FRCNN_mask.mp4",
+    "proximity": "outputs/proximity/MOT17-04-FRCNN_mask.parquet",
+    "summary": "outputs/summaries/MOT17-04-FRCNN_mask.txt"
+  },
+  "MOT17-04-FRCNN__mask__smooth__counts": {
+    "features": "outputs/features/MOT17-04-FRCNN_mask.parquet",
+    "overlay": "outputs/overlays/MOT17-04-FRCNN_mask.mp4",
+    "proximity": "outputs/proximity/MOT17-04-FRCNN_mask.parquet",
+    "summary": "outputs/summaries/MOT17-04-FRCNN_mask__no-behavior.txt"
+  },
+  "MOT17-09-FRCNN__bbox__raw__behavior": {
+    "features": "outputs/features/MOT17-09-FRCNN_no-smoothing.parquet",
+    "overlay": "outputs/overlays/MOT17-09-FRCNN.mp4",
+    "proximity": "outputs/proximity/MOT17-09-FRCNN_no-smoothing.parquet",
+    "summary": "outputs/summaries/MOT17-09-FRCNN_no-smoothing.txt"
+  },
+  "MOT17-09-FRCNN__bbox__raw__counts": {
+    "features": "outputs/features/MOT17-09-FRCNN_no-smoothing.parquet",
+    "overlay": "outputs/overlays/MOT17-09-FRCNN.mp4",
+    "proximity": "outputs/proximity/MOT17-09-FRCNN_no-smoothing.parquet",
+    "summary": "outputs/summaries/MOT17-09-FRCNN_no-smoothing__no-behavior.txt"
+  },
+  "MOT17-09-FRCNN__bbox__smooth__behavior": {
+    "features": "outputs/features/MOT17-09-FRCNN.parquet",
+    "overlay": "outputs/overlays/MOT17-09-FRCNN.mp4",
+    "proximity": "outputs/proximity/MOT17-09-FRCNN.parquet",
+    "summary": "outputs/summaries/MOT17-09-FRCNN.txt"
+  },
+  "MOT17-09-FRCNN__bbox__smooth__counts": {
+    "features": "outputs/features/MOT17-09-FRCNN.parquet",
+    "overlay": "outputs/overlays/MOT17-09-FRCNN.mp4",
+    "proximity": "outputs/proximity/MOT17-09-FRCNN.parquet",
+    "summary": "outputs/summaries/MOT17-09-FRCNN_no-behavior.txt"
+  },
+  "MOT17-09-FRCNN__mask__raw__behavior": {
+    "features": "outputs/features/MOT17-09-FRCNN_mask.parquet",
+    "overlay": "outputs/overlays/MOT17-09-FRCNN_mask.mp4",
+    "proximity": "outputs/proximity/MOT17-09-FRCNN_mask.parquet",
+    "summary": "outputs/summaries/MOT17-09-FRCNN_mask__no-smoothing.txt"
+  },
+  "MOT17-09-FRCNN__mask__raw__counts": {
+    "features": "outputs/features/MOT17-09-FRCNN_mask.parquet",
+    "overlay": "outputs/overlays/MOT17-09-FRCNN_mask.mp4",
+    "proximity": "outputs/proximity/MOT17-09-FRCNN_mask.parquet",
+    "summary": "outputs/summaries/MOT17-09-FRCNN_mask__no-smoothing__no-behavior.txt"
+  },
+  "MOT17-09-FRCNN__mask__smooth__behavior": {
+    "features": "outputs/features/MOT17-09-FRCNN_mask.parquet",
+    "overlay": "outputs/overlays/MOT17-09-FRCNN_mask.mp4",
+    "proximity": "outputs/proximity/MOT17-09-FRCNN_mask.parquet",
+    "summary": "outputs/summaries/MOT17-09-FRCNN_mask.txt"
+  },
+  "MOT17-09-FRCNN__mask__smooth__counts": {
+    "features": "outputs/features/MOT17-09-FRCNN_mask.parquet",
+    "overlay": "outputs/overlays/MOT17-09-FRCNN_mask.mp4",
+    "proximity": "outputs/proximity/MOT17-09-FRCNN_mask.parquet",
+    "summary": "outputs/summaries/MOT17-09-FRCNN_mask__no-behavior.txt"
+  },
+  "demo_clip__bbox__raw__behavior": {
+    "features": "outputs/features/demo_clip_no-smoothing.parquet",
+    "overlay": "outputs/overlays/demo_clip.mp4",
+    "proximity": "outputs/proximity/demo_clip_no-smoothing.parquet",
+    "summary": "outputs/summaries/demo_clip_no-smoothing.txt"
+  },
+  "demo_clip__bbox__raw__counts": {
+    "features": "outputs/features/demo_clip_no-smoothing.parquet",
+    "overlay": "outputs/overlays/demo_clip.mp4",
+    "proximity": "outputs/proximity/demo_clip_no-smoothing.parquet",
+    "summary": "outputs/summaries/demo_clip_no-smoothing__no-behavior.txt"
+  },
+  "demo_clip__bbox__smooth__behavior": {
+    "features": "outputs/features/demo_clip.parquet",
+    "overlay": "outputs/overlays/demo_clip.mp4",
+    "proximity": "outputs/proximity/demo_clip.parquet",
+    "summary": "outputs/summaries/demo_clip.txt"
+  },
+  "demo_clip__bbox__smooth__counts": {
+    "features": "outputs/features/demo_clip.parquet",
+    "overlay": "outputs/overlays/demo_clip.mp4",
+    "proximity": "outputs/proximity/demo_clip.parquet",
+    "summary": "outputs/summaries/demo_clip_no-behavior.txt"
+  },
+  "demo_clip__mask__raw__behavior": {
+    "features": "outputs/features/demo_clip_mask.parquet",
+    "overlay": "outputs/overlays/demo_clip_mask.mp4",
+    "proximity": "outputs/proximity/demo_clip_mask.parquet",
+    "summary": "outputs/summaries/demo_clip_mask__no-smoothing.txt"
+  },
+  "demo_clip__mask__raw__counts": {
+    "features": "outputs/features/demo_clip_mask.parquet",
+    "overlay": "outputs/overlays/demo_clip_mask.mp4",
+    "proximity": "outputs/proximity/demo_clip_mask.parquet",
+    "summary": "outputs/summaries/demo_clip_mask__no-smoothing__no-behavior.txt"
+  },
+  "demo_clip__mask__smooth__behavior": {
+    "features": "outputs/features/demo_clip_mask.parquet",
+    "overlay": "outputs/overlays/demo_clip_mask.mp4",
+    "proximity": "outputs/proximity/demo_clip_mask.parquet",
+    "summary": "outputs/summaries/demo_clip_mask.txt"
+  },
+  "demo_clip__mask__smooth__counts": {
+    "features": "outputs/features/demo_clip_mask.parquet",
+    "overlay": "outputs/overlays/demo_clip_mask.mp4",
+    "proximity": "outputs/proximity/demo_clip_mask.parquet",
+    "summary": "outputs/summaries/demo_clip_mask__no-behavior.txt"
+  }
+}

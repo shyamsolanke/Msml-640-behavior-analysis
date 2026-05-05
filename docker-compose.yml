@@ -1,0 +1,47 @@
+services:
+  app:
+    build: .
+    image: behavior-analysis:latest
+    container_name: behavior-analysis
+    ports:
+      - "8501:8501"
+    volumes:
+      # Persist weights so they survive container restarts (avoid re-downloading)
+      - ./weights:/app/weights
+      # Persist demo clip and MOT17 data
+      - ./data:/app/data
+      # Persist evaluation outputs and tracked videos
+      - ./outputs:/app/outputs
+    environment:
+      # Optional: set OPENAI_API_KEY for LLM summaries (scripts/llm_summaries.py)
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    restart: unless-stopped
+    stdin_open: false
+    tty: false
+
+  # ---------------------------------------------------------------------------
+  # GPU variant — uncomment and use with:
+  #   docker compose --profile gpu up
+  # Requires NVIDIA Container Toolkit on the host.
+  # ---------------------------------------------------------------------------
+  # app-gpu:
+  #   build: .
+  #   image: behavior-analysis:latest
+  #   container_name: behavior-analysis-gpu
+  #   ports:
+  #     - "8501:8501"
+  #   volumes:
+  #     - ./weights:/app/weights
+  #     - ./data:/app/data
+  #     - ./outputs:/app/outputs
+  #   environment:
+  #     - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [gpu]
+  #   profiles: [gpu]
+  #   restart: unless-stopped

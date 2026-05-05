@@ -1,0 +1,71 @@
+{
+  "seq_name": "MOT17-04-FRCNN",
+  "config": {
+    "sample_every_n": 5,
+    "model_type": "vit_t",
+    "weights": "/Users/jayanthbhansali/Documents/VSC/project640-behavior-cv/project/weights/mobile_sam.pt",
+    "fps": 30.0,
+    "frame_w": 1920,
+    "frame_h": 1080
+  },
+  "n_tracks_bbox": 89,
+  "n_tracks_mask": 89,
+  "avg_speed_px_per_s": {
+    "bbox": {
+      "mean": 51.0337,
+      "median": 45.7,
+      "std": 32.2196,
+      "n": 89
+    },
+    "mask": {
+      "mean": 47.1247,
+      "median": 40.5,
+      "std": 30.2453,
+      "n": 89
+    }
+  },
+  "stationary_ratio": {
+    "bbox": {
+      "mean": 0.0606,
+      "median": 0.017,
+      "std": 0.1025,
+      "n": 89
+    },
+    "mask": {
+      "mean": 0.1234,
+      "median": 0.022,
+      "std": 0.2186,
+      "n": 89
+    }
+  },
+  "dominant_cell_pct": {
+    "bbox": {
+      "mean": 0.7931,
+      "median": 0.943,
+      "std": 0.2424,
+      "n": 89
+    },
+    "mask": {
+      "mean": 0.7885,
+      "median": 0.933,
+      "std": 0.2435,
+      "n": 89
+    }
+  },
+  "label_counts_bbox": {
+    "region_dominant": 57,
+    "high_mobility": 21,
+    "unlabeled": 11
+  },
+  "label_counts_mask": {
+    "region_dominant": 53,
+    "high_mobility": 22,
+    "unlabeled": 11,
+    "stationary": 3
+  },
+  "runtime_s": {
+    "segmentation": 302.93,
+    "merge_interp": 0.12,
+    "features": 0.12
+  }
+}

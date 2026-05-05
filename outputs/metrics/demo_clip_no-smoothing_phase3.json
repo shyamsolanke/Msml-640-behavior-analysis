@@ -1,0 +1,40 @@
+{
+  "seq_name": "demo_clip",
+  "config": {
+    "smoothing": {
+      "on": false,
+      "window": 5,
+      "polyorder": 2
+    },
+    "behavior_layer": true,
+    "proximity": {
+      "on": true,
+      "threshold_px": 100.0,
+      "min_duration_s": 0.5
+    },
+    "grid": [
+      4,
+      4
+    ],
+    "stationary_speed_px_per_s": 5.0,
+    "min_active_frames": 5,
+    "fps": 10.0,
+    "frame_w": 1280,
+    "frame_h": 720
+  },
+  "n_tracks_input": 112,
+  "n_tracks_after_filter": 95,
+  "n_proximity_events": 63,
+  "label_counts": {
+    "region_dominant": 56,
+    "high_mobility": 25,
+    "": 14
+  },
+  "runtime_s": {
+    "smoothing": 0.0,
+    "features": 0.042,
+    "proximity": 0.162,
+    "summary": 0.017,
+    "total": 0.221
+  }
+}

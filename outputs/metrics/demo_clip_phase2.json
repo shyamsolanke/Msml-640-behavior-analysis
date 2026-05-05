@@ -1,0 +1,15 @@
+{
+  "seq_name": "demo_clip",
+  "idf1": null,
+  "mota": null,
+  "motp": null,
+  "num_switches": null,
+  "mostly_tracked": null,
+  "mostly_lost": null,
+  "num_false_positives": null,
+  "num_misses": null,
+  "num_objects": null,
+  "num_frames_evaluated": null,
+  "iou_max": 0.5,
+  "note": "no ground truth available; metrics are null"
+}

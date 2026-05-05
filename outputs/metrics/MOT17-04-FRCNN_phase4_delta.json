@@ -1,0 +1,74 @@
+{
+  "seq_name": "MOT17-04-FRCNN",
+  "config": {
+    "sample_every_n": 5,
+    "model_type": "vit_t",
+    "smoothing_window": 5,
+    "smoothing_polyorder": 2,
+    "fps": 30.0,
+    "frame_w": 1920,
+    "frame_h": 1080
+  },
+  "n_tracks_bbox": 73,
+  "n_tracks_mask": 73,
+  "n_proximity_bbox": 73,
+  "n_proximity_mask": 69,
+  "avg_speed_px_per_s": {
+    "bbox": {
+      "mean": 51.21613311767578,
+      "median": 49.55225372314453,
+      "std": 31.21573257446289,
+      "n": 73
+    },
+    "mask": {
+      "mean": 50.090354919433594,
+      "median": 45.85811233520508,
+      "std": 30.884117126464844,
+      "n": 73
+    }
+  },
+  "stationary_ratio": {
+    "bbox": {
+      "mean": 0.08462054282426834,
+      "median": 0.01262626238167286,
+      "std": 0.14285919070243835,
+      "n": 73
+    },
+    "mask": {
+      "mean": 0.1029721274971962,
+      "median": 0.019354838877916336,
+      "std": 0.1699300855398178,
+      "n": 73
+    }
+  },
+  "dominant_cell_pct": {
+    "bbox": {
+      "mean": 0.7706766128540039,
+      "median": 0.8743718862533569,
+      "std": 0.2451709359884262,
+      "n": 73
+    },
+    "mask": {
+      "mean": 0.7682901620864868,
+      "median": 0.85014408826828,
+      "std": 0.24583205580711365,
+      "n": 73
+    }
+  },
+  "label_counts_bbox": {
+    "region_dominant": 50,
+    "high_mobility": 15,
+    "": 8
+  },
+  "label_counts_mask": {
+    "region_dominant": 46,
+    "high_mobility": 19,
+    "": 8
+  },
+  "runtime_s": {
+    "segmentation": 231.719,
+    "merge_interp": 0.317,
+    "features_bbox": 0.151,
+    "features_mask": 0.293
+  }
+}

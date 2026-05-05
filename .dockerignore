@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# Virtual environment
+.venv
+
+# Python bytecode
+__pycache__
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Model weights (downloaded at runtime by entrypoint.sh)
+weights/*.pt
+
+# Large data files (mounted as volumes)
+data/demo_clip/source.mp4
+data/mot17
+
+# Generated outputs (mounted as volumes)
+outputs/overlays
+
+# Docker files themselves (not needed inside image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Temp files
+*.tmp
+tmp/

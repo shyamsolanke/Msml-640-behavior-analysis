@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS metadata
+.DS_Store
+.DS_Store?
+._*
+
+# Model weights (auto-downloaded on first run — see README)
+weights/*.pt
+
+# MOT17 dataset (symlinked from local path, not portable)
+data/mot17
+
+# Demo video (large binary — obtain separately)
+data/demo_clip/source.mp4
+
+# Generated video overlays
+outputs/overlays/
+
+# Streamlit cache
+.streamlit/
+
+# Temp files from processing
+*.tmp
+tmp/
+
+# Environment variable files
+.env

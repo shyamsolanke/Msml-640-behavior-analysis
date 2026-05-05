@@ -1,0 +1,269 @@
+{
+  "rows": [
+    {
+      "seq": "MOT17-04-FRCNN",
+      "A": "bbox",
+      "B": "raw",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/MOT17-04-FRCNN_no-smoothing.txt",
+      "overlay_path": "outputs/overlays/MOT17-04-FRCNN.mp4",
+      "n_tracks": 73,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "MOT17-04-FRCNN",
+      "A": "bbox",
+      "B": "raw",
+      "C": "counts",
+      "summary_path": "outputs/summaries/MOT17-04-FRCNN_no-smoothing__no-behavior.txt",
+      "overlay_path": "outputs/overlays/MOT17-04-FRCNN.mp4",
+      "n_tracks": null,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "MOT17-04-FRCNN",
+      "A": "bbox",
+      "B": "smooth",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/MOT17-04-FRCNN.txt",
+      "overlay_path": "outputs/overlays/MOT17-04-FRCNN.mp4",
+      "n_tracks": 73,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "MOT17-04-FRCNN",
+      "A": "bbox",
+      "B": "smooth",
+      "C": "counts",
+      "summary_path": "outputs/summaries/MOT17-04-FRCNN_no-behavior.txt",
+      "overlay_path": "outputs/overlays/MOT17-04-FRCNN.mp4",
+      "n_tracks": 73,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "MOT17-04-FRCNN",
+      "A": "mask",
+      "B": "raw",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/MOT17-04-FRCNN_mask__no-smoothing.txt",
+      "overlay_path": "outputs/overlays/MOT17-04-FRCNN_mask.mp4",
+      "n_tracks": 73,
+      "median_speed_px_per_s": 45.85811233520508,
+      "mean_stationary_ratio": 0.1029721274971962
+    },
+    {
+      "seq": "MOT17-04-FRCNN",
+      "A": "mask",
+      "B": "raw",
+      "C": "counts",
+      "summary_path": "outputs/summaries/MOT17-04-FRCNN_mask__no-smoothing__no-behavior.txt",
+      "overlay_path": "outputs/overlays/MOT17-04-FRCNN_mask.mp4",
+      "n_tracks": 73,
+      "median_speed_px_per_s": 45.85811233520508,
+      "mean_stationary_ratio": 0.1029721274971962
+    },
+    {
+      "seq": "MOT17-04-FRCNN",
+      "A": "mask",
+      "B": "smooth",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/MOT17-04-FRCNN_mask.txt",
+      "overlay_path": "outputs/overlays/MOT17-04-FRCNN_mask.mp4",
+      "n_tracks": 73,
+      "median_speed_px_per_s": 45.85811233520508,
+      "mean_stationary_ratio": 0.1029721274971962
+    },
+    {
+      "seq": "MOT17-04-FRCNN",
+      "A": "mask",
+      "B": "smooth",
+      "C": "counts",
+      "summary_path": "outputs/summaries/MOT17-04-FRCNN_mask__no-behavior.txt",
+      "overlay_path": "outputs/overlays/MOT17-04-FRCNN_mask.mp4",
+      "n_tracks": 73,
+      "median_speed_px_per_s": 45.85811233520508,
+      "mean_stationary_ratio": 0.1029721274971962
+    },
+    {
+      "seq": "MOT17-09-FRCNN",
+      "A": "bbox",
+      "B": "raw",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/MOT17-09-FRCNN_no-smoothing.txt",
+      "overlay_path": "outputs/overlays/MOT17-09-FRCNN.mp4",
+      "n_tracks": 52,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "MOT17-09-FRCNN",
+      "A": "bbox",
+      "B": "raw",
+      "C": "counts",
+      "summary_path": "outputs/summaries/MOT17-09-FRCNN_no-smoothing__no-behavior.txt",
+      "overlay_path": "outputs/overlays/MOT17-09-FRCNN.mp4",
+      "n_tracks": null,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "MOT17-09-FRCNN",
+      "A": "bbox",
+      "B": "smooth",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/MOT17-09-FRCNN.txt",
+      "overlay_path": "outputs/overlays/MOT17-09-FRCNN.mp4",
+      "n_tracks": 52,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "MOT17-09-FRCNN",
+      "A": "bbox",
+      "B": "smooth",
+      "C": "counts",
+      "summary_path": "outputs/summaries/MOT17-09-FRCNN_no-behavior.txt",
+      "overlay_path": "outputs/overlays/MOT17-09-FRCNN.mp4",
+      "n_tracks": 52,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "MOT17-09-FRCNN",
+      "A": "mask",
+      "B": "raw",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/MOT17-09-FRCNN_mask__no-smoothing.txt",
+      "overlay_path": "outputs/overlays/MOT17-09-FRCNN_mask.mp4",
+      "n_tracks": 51,
+      "median_speed_px_per_s": 99.66742706298828,
+      "mean_stationary_ratio": 0.1559857875108719
+    },
+    {
+      "seq": "MOT17-09-FRCNN",
+      "A": "mask",
+      "B": "raw",
+      "C": "counts",
+      "summary_path": "outputs/summaries/MOT17-09-FRCNN_mask__no-smoothing__no-behavior.txt",
+      "overlay_path": "outputs/overlays/MOT17-09-FRCNN_mask.mp4",
+      "n_tracks": 51,
+      "median_speed_px_per_s": 99.66742706298828,
+      "mean_stationary_ratio": 0.1559857875108719
+    },
+    {
+      "seq": "MOT17-09-FRCNN",
+      "A": "mask",
+      "B": "smooth",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/MOT17-09-FRCNN_mask.txt",
+      "overlay_path": "outputs/overlays/MOT17-09-FRCNN_mask.mp4",
+      "n_tracks": 51,
+      "median_speed_px_per_s": 99.66742706298828,
+      "mean_stationary_ratio": 0.1559857875108719
+    },
+    {
+      "seq": "MOT17-09-FRCNN",
+      "A": "mask",
+      "B": "smooth",
+      "C": "counts",
+      "summary_path": "outputs/summaries/MOT17-09-FRCNN_mask__no-behavior.txt",
+      "overlay_path": "outputs/overlays/MOT17-09-FRCNN_mask.mp4",
+      "n_tracks": 51,
+      "median_speed_px_per_s": 99.66742706298828,
+      "mean_stationary_ratio": 0.1559857875108719
+    },
+    {
+      "seq": "demo_clip",
+      "A": "bbox",
+      "B": "raw",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/demo_clip_no-smoothing.txt",
+      "overlay_path": "outputs/overlays/demo_clip.mp4",
+      "n_tracks": 95,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "demo_clip",
+      "A": "bbox",
+      "B": "raw",
+      "C": "counts",
+      "summary_path": "outputs/summaries/demo_clip_no-smoothing__no-behavior.txt",
+      "overlay_path": "outputs/overlays/demo_clip.mp4",
+      "n_tracks": null,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "demo_clip",
+      "A": "bbox",
+      "B": "smooth",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/demo_clip.txt",
+      "overlay_path": "outputs/overlays/demo_clip.mp4",
+      "n_tracks": 95,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "demo_clip",
+      "A": "bbox",
+      "B": "smooth",
+      "C": "counts",
+      "summary_path": "outputs/summaries/demo_clip_no-behavior.txt",
+      "overlay_path": "outputs/overlays/demo_clip.mp4",
+      "n_tracks": 95,
+      "median_speed_px_per_s": null,
+      "mean_stationary_ratio": null
+    },
+    {
+      "seq": "demo_clip",
+      "A": "mask",
+      "B": "raw",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/demo_clip_mask__no-smoothing.txt",
+      "overlay_path": "outputs/overlays/demo_clip_mask.mp4",
+      "n_tracks": 95,
+      "median_speed_px_per_s": 89.3918685913086,
+      "mean_stationary_ratio": 0.14927047491073608
+    },
+    {
+      "seq": "demo_clip",
+      "A": "mask",
+      "B": "raw",
+      "C": "counts",
+      "summary_path": "outputs/summaries/demo_clip_mask__no-smoothing__no-behavior.txt",
+      "overlay_path": "outputs/overlays/demo_clip_mask.mp4",
+      "n_tracks": 95,
+      "median_speed_px_per_s": 89.3918685913086,
+      "mean_stationary_ratio": 0.14927047491073608
+    },
+    {
+      "seq": "demo_clip",
+      "A": "mask",
+      "B": "smooth",
+      "C": "behavior",
+      "summary_path": "outputs/summaries/demo_clip_mask.txt",
+      "overlay_path": "outputs/overlays/demo_clip_mask.mp4",
+      "n_tracks": 95,
+      "median_speed_px_per_s": 89.3918685913086,
+      "mean_stationary_ratio": 0.14927047491073608
+    },
+    {
+      "seq": "demo_clip",
+      "A": "mask",
+      "B": "smooth",
+      "C": "counts",
+      "summary_path": "outputs/summaries/demo_clip_mask__no-behavior.txt",
+      "overlay_path": "outputs/overlays/demo_clip_mask.mp4",
+      "n_tracks": 95,
+      "median_speed_px_per_s": 89.3918685913086,
+      "mean_stationary_ratio": 0.14927047491073608
+    }
+  ],
+  "n_cells": 24
+}
